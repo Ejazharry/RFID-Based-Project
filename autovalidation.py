@@ -5,7 +5,7 @@ import time
 time.sleep(5)
 window = Tk()
 window.geometry("266x208")
-window.title("Claculator")
+window.title("Info")
 def DESTROY():
       window.destroy();
 Label(window, text='Scan your ID', font=('', 20), pady=5, padx=5).grid(row=6, column=2)
